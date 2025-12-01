@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Services - HealthCare Clinic</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+  <link href="asset/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header><nav class="navbar navbar-expand-lg"><div class="container">
+    <a class="navbar-brand" href="index.html"><i class="ri-hospital-line" style="color:#00b8d4;margin-right:8px"></i>HealthCare</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav3"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="mainNav3">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link active" href="services.html">Medical Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="appointment.html">Appointment</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div></nav></header>
+
+  <main>
+    <section class="section-padding services-section">
+      <div class="container">
+        <div class="section-header text-center mb-4">
+          <span class="section-tag">Our Services</span>
+          <h2 class="section-title">Comprehensive Medical Care</h2>
+        </div>
+
+        <div class="services-container">
+          <div class="service-menu">
+            <!-- each service-item has data attributes used by main.js -->
+            <div class="service-item active"
+              data-title="Cardiology"
+              data-desc="Comprehensive diagnosis and treatment for all heart-related conditions."
+              data-img="asset/pics/service1.jpg"
+              data-icon="ri-heart-pulse-line"
+              data-services="Comprehensive Cardiac Checkup|ECG & Stress Testing|Angiography & Angioplasty|Heart Failure Management">
+                <span><i class="ri-heart-pulse-line" style="margin-right:10px"></i>Cardiology</span>
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="service-item active"
+              data-title="Pediatrics"
+              data-desc="Pediatric care for infants, children, and adolescents."
+              data-img="asset/pics/service5.jpg"
+              data-icon="ri-parent-line"
+              data-services="Routine Child Checkups|Vaccination & Immunization|Growth & Development Assessment|Newborn Care">
+                <span><i class="ri-parent-line" style="margin-right:10px"></i>Pediatrics</span><i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="service-item active"
+              data-title="General Medicine"
+              data-desc="Primary care, routine checkups, chronic disease management."
+              data-img="asset/pics/service3.jpg"
+              data-icon="ri-stethoscope-line"
+              data-services="General Health Checkup|Diagnosis of Common Illnesses|Diabetes & Hypertension Management|Chronic Disease Follow-Up">
+               <span><i class="ri-stethoscope-line" style="margin-right:10px"></i>General Medicine</span><i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="service-item active"
+              data-title="Pulmonology"
+              data-desc="Specialized lung and respiratory care."
+              data-img="asset/pics/service2.jpg"
+              data-icon="ri-lungs-line"
+              data-services="Pulmonary Function Testing|Asthma Diagnosis & Management|COPD Treatment|Allergy Testing & Treatment">
+              <span><i class="ri-lungs-line" style="margin-right:10px"></i>Pulmonology</span><i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="service-item active"
+              data-title="Dermatology"
+               data-desc="Skin consultations and dermatologic treatments."
+               data-img="asset/pics/service6.jpg"
+               data-icon="ri-first-aid-kit-line"
+               data-services="Acne Treatment|Allergy Testing|Hair Loss Treatment|Cosmetic Procedures"> 
+                <span><i class="ri-first-aid-kit-line" style="margin-right:10px"></i>Dermatology</span><i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="service-item active"
+               data-title="Gastroenterology"
+               data-desc="Diagnosis and treatment of digestive system disorders."
+               data-img="asset/pics/service4.jpg"
+               data-icon="ri-body-scan-line"
+               data-services="Gastric Disorder Diagnosis|Acid Reflux Treatment|Liver Function Evaluation|IBS Management">
+               <span><i class="ri-body-scan-line" style="margin-right:10px"></i>Gastroenterology</span><i class="ri-arrow-right-s-line"></i>
+
+            </div>
+
+           </div>
+
+          <div class="service-details-panel">
+            <div class="service-info">
+              <div class="service-icon-large"><i class="ri-heart-pulse-line"></i></div>
+              <h3 style="font-size:28px;margin-bottom:12px">Department of Cardiology</h3>
+              <p style="color:var(--text-main)" class="mb-3">Our cardiology department provides comprehensive diagnosis and treatment for all heart-related conditions. We utilize state-of-the-art technology for non-invasive testing, including echocardiograms, stress tests, and Holter monitoring.</p>
+
+              <h5>Services Offered</h5>
+              <ul class="mt-2">
+                <!-- main.js -->
+              </ul>
+              <a href="appointment.html" class="btn btn-primary-custom mt-3">Book Consultation</a>
+            </div>
+            <div class="service-image">
+              <!-- the src with main.js -->
+              <img src="" alt="service image" class="rounded w-100" style="height:320px;object-fit:cover">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main> 
+ <!-- Footer -->
+  <footer class="mt-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="footer-logo"><i class="ri-hospital-line" style="color:var(--secondary);"></i> HealthCare</div>
+          <p style="color:var(--text-light)">A leading medical clinic dedicated to comprehensive healthcare.</p>
+          <div class="d-flex gap-2">
+            <a class="btn btn-sm btn-light" href="#"><i class="ri-facebook-fill"></i></a>
+            <a class="btn btn-sm btn-light" href="#"><i class="ri-twitter-x-line"></i></a>
+            <a class="btn btn-sm btn-light" href="#"><i class="ri-instagram-line"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h5 style="color:#fff">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="appointment.html">Book Appointment</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 style="color:#fff">Contact</h5>
+          <p class="contact-info">
+            NTIC , Constantine 2<br>
+            <a href="tel:+213793109125" class="contact-link">(+213)793109125</a><br>
+            <a href="mailto:abderrahmane.imlouli@univ-constantine2.dz" class="contact-link">abderrahmane.imlouli@univ-constantine2.dz</a>
+          </p>
+
+        </div>
+      </div>
+      <div class="text-center mt-4" style="color:rgba(255,255,255,0.6);font-size:13px">&copy; 2025 HealthCare Clinic. All Rights Reserved.</div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="asset/js/main.js"></script>
+</body>
+</html>
